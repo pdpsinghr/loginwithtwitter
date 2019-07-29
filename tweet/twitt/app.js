@@ -35,8 +35,8 @@ var T = new Twit({
 })
 
 passport.use(new Strategy({
-    consumerKey: 'wiX9OIvgQew2WjlxsSB2f0qjR',
-    consumerSecret: 'nkOfp6ZhLjBOSh2rAaeuWZo6gsbHko0njcdO7x0m3S3v6cH6Vl',
+    consumerKey: 'conumerkey',
+    consumerSecret: 'consumer key secret',
     callbackURL: 'http://localhost:3000/twitter/return'
 }, function(token, tokenSecret, profile, callback) {
     return callback(null, profile);
