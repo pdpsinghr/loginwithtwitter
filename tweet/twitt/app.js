@@ -26,10 +26,10 @@ mongoose.connect(config.DB, { useNewUrlParser: true }).then(
 );
 
 var T = new Twit({
-  consumer_key:         'wiX9OIvgQew2WjlxsSB2f0qjR',
-  consumer_secret:      'nkOfp6ZhLjBOSh2rAaeuWZo6gsbHko0njcdO7x0m3S3v6cH6Vl',
-  access_token:         '2210093600-NXgc3ouDJjINDAVNwG1GOGEqyMcdEZoZ2PDJPOJ',
-  access_token_secret:  '4kkmrFzTkJhambJsixL7drGDVDMJkVScYXmVENreKKOGA',
+  consumer_key:         'conumerkey',
+  consumer_secret:      'consumer key secret',
+  access_token:         'access token',
+  access_token_secret:  'token secret',
   timeout_ms:           60*1000,  // optional HTTP request timeout to apply to all requests.
   strictSSL:            true,     // optional - requires SSL certificates to be valid.
 })
