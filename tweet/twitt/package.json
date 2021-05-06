@@ -26,6 +26,6 @@
     "socket.io": "^2.2.0",
     "twit": "^2.2.11",
     "twitter": "^1.7.1",
-    "underscore": "^1.9.1"
+    "underscore": "^1.12.1"
   }
 }
